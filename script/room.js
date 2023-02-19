@@ -360,14 +360,16 @@ var Room = {
 		'scales': {
 			type: 'good',
 			cost: function () {
-				return { fur: 150 };
+				return { fur: 1 };
+				reward: { 'scales': 1000 }
 			},
 			audio: AudioLibrary.BUY_SCALES
 		},
 		'teeth': {
 			type: 'good',
 			cost: function () {
-				return { fur: 300 };
+				return { fur: 1 };
+				reward: { 'teeth': 1000 }
 			},
 			audio: AudioLibrary.BUY_TEETH
 		},
