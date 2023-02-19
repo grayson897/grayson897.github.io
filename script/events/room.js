@@ -19,12 +19,12 @@ Events.Room = [
 					'buyScales': {
 						text: _('buy scales'),
 						cost: { 'fur': 10 },
-						reward: { 'scales': 1000 }
+						
 					},
 					'buyTeeth': {
 						text: _('buy teeth'),
 						cost: { 'fur': 20 },
-						reward: { 'teeth': 1000 }
+						
 					},
 					'buyBait': {
 						text: _('buy bait'),
