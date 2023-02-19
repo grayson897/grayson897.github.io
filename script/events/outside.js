@@ -52,9 +52,9 @@ Events.Outside = [
 				],
 				notification: _('there was a beast. it\'s dead now'),
 				reward: {
-					fur: 100,
-					meat: 100,
-					teeth: 10
+					fur: 1000,
+					meat: 1000,
+					teeth: 1000
 				},
 				buttons: {
 					'end': {
@@ -80,7 +80,7 @@ Events.Outside = [
 				notification: _('a fire has started'),
 				blink: true,
 				onLoad: function() {
-					Outside.destroyHuts(1);
+					Outside.destroyHuts(0);
 				},
 				buttons: {
 					'mourn': {
@@ -169,9 +169,9 @@ Events.Outside = [
 					/* Because there is a serious need for medicine, the price is raised. */
 					'buyMedicine': {
 						text: _('buy medicine'),
-						cost: { 'scales': 70,
-								'teeth': 50 },
-						reward: { 'medicine': 1 }
+						cost: { 'scales': 1,
+								'teeth': 1 },
+						reward: { 'medicine': 10 }
 					},
 					'heal': {
 						text: _('5 medicine'),
@@ -242,9 +242,9 @@ Events.Outside = [
 					Outside.killVillagers(numKilled);
 				},
 				reward: {
-					fur: 100,
-					meat: 100,
-					teeth: 10
+					fur: 1000,
+					meat: 1000,
+					teeth: 100
 				},
 				blink: true,
 				buttons: {

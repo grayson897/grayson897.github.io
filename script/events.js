@@ -231,11 +231,11 @@ var Events = {
 			text: _('eat meat'),
 			cooldown: cooldown,
 			click: Events.eatMeat,
-			cost: { 'cured meat': 1 }
+			cost: { 'cured meat': 0 }
 		});
 
 		if(Path.outfit['cured meat'] === 0) {
-			Button.setDisabled(btn, true);
+			Button.setDisabled(btn, false);
 		}
 
 		return btn;
@@ -255,7 +255,7 @@ var Events = {
 		});
 
 		if((Path.outfit['medicine'] || 0) === 0) {
-			Button.setDisabled(btn, true);
+			Button.setDisabled(btn, false);
 		}
 
 		return btn;

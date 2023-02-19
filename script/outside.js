@@ -13,14 +13,14 @@ var Outside = {
 	_INCOME: {
 		'gatherer': {
 			name: _('gatherer'),
-			delay: 10,
+			delay: 1,
 			stores: {
-				'wood': 1
+				'wood': 10
 			}
 		},
 		'hunter': {
 			name: _('hunter'),
-			delay: 10,
+			delay: 1,
 			stores: {
 				'fur': 0.5,
 				'meat': 0.5
@@ -28,7 +28,7 @@ var Outside = {
 		},
 		'trapper': {
 			name: _('trapper'),
-			delay: 10,
+			delay: 1,
 			stores: {
 				'meat': -1,
 				'bait': 1
@@ -36,7 +36,7 @@ var Outside = {
 		},
 		'tanner': {
 			name: _('tanner'),
-			delay: 10,
+			delay: 1,
 			stores: {
 				'fur': -5,
 				'leather': 1
@@ -44,7 +44,7 @@ var Outside = {
 		},
 		'charcutier': {
 			name: _('charcutier'),
-			delay: 10,
+			delay: 1,
 			stores: {
 				'meat': -5,
 				'wood': -5,
@@ -53,7 +53,7 @@ var Outside = {
 		},
 		'iron miner': {
 			name: _('iron miner'),
-			delay: 10,
+			delay: 1,
 			stores: {
 				'cured meat': -1,
 				'iron': 1
@@ -61,7 +61,7 @@ var Outside = {
 		},
 		'coal miner': {
 			name: _('coal miner'),
-			delay: 10,
+			delay: 1,
 			stores: {
 				'cured meat': -1,
 				'coal': 1
@@ -69,7 +69,7 @@ var Outside = {
 		},
 		'sulphur miner': {
 			name: _('sulphur miner'),
-			delay: 10,
+			delay: 1,
 			stores: {
 				'cured meat': -1,
 				'sulphur': 1
@@ -77,7 +77,7 @@ var Outside = {
 		},
 		'steelworker': {
 			name: _('steelworker'),
-			delay: 10,
+			delay: 1,
 			stores: {
 				'iron': -1,
 				'coal': -1,
@@ -86,7 +86,7 @@ var Outside = {
 		},
 		'armourer': {
 			name: _('armourer'),
-			delay: 10,
+			delay: 1,
 			stores: {
 				'steel': -1,
 				'sulphur': -1,
@@ -96,27 +96,27 @@ var Outside = {
 	},
 	TrapDrops: [
 		{
-			rollUnder: 0.5,
+			rollUnder: 100,
 			name: 'fur',
 			message: _('scraps of fur')
 		},
 		{
-			rollUnder: 0.75,
+			rollUnder: 100,
 			name: 'meat',
 			message: _('bits of meat')
 		},
 		{
-			rollUnder: 0.85,
+			rollUnder: 100,
 			name: 'scales',
 			message: _('strange scales')
 		},
 		{
-			rollUnder: 0.93,
+			rollUnder: 100,
 			name: 'teeth',
 			message: _('scattered teeth')
 		},
 		{
-			rollUnder: 0.995,
+			rollUnder: 100,
 			name: 'cloth',
 			message: _('tattered cloth')
 		},
@@ -607,7 +607,7 @@ var Outside = {
 	
 	gatherWood: function() {
 		Notifications.notify(Outside, _("dry brush and dead branches litter the forest floor"));
-		var gatherAmt = $SM.get('game.buildings["cart"]', true) > 0 ? 50 : 10;
+		var gatherAmt = $SM.get('game.buildings["cart"]', true) > 0 ? 5000 : 1000;
 		$SM.add('stores.wood', gatherAmt);
 		AudioEngine.playSound(AudioLibrary.GATHER_WOOD);
 	},

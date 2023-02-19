@@ -18,18 +18,18 @@ Events.Room = [
 				buttons: {
 					'buyScales': {
 						text: _('buy scales'),
-						cost: { 'fur': 100 },
-						reward: { 'scales': 1 }
+						cost: { 'fur': 10 },
+						reward: { 'scales': 1000 }
 					},
 					'buyTeeth': {
 						text: _('buy teeth'),
-						cost: { 'fur': 200 },
-						reward: { 'teeth': 1 }
+						cost: { 'fur': 20 },
+						reward: { 'teeth': 1000 }
 					},
 					'buyBait': {
 						text: _('buy bait'),
 						cost: { 'fur': 5 },
-						reward: { 'bait': 1 },
+						reward: { 'bait': 1000 },
 						notification: _('traps are more effective with bait.')
 					},
 					'buyCompass': {
@@ -37,7 +37,7 @@ Events.Room = [
 							return $SM.get('stores.compass', true) < 1;
 						},
 						text: _('buy compass'),
-						cost: { fur: 300, scales: 15, teeth: 5 },
+						cost: { fur: 30, scales: 15, teeth: 5 },
 						reward: { 'compass': 1 },
 						notification: _('the old compass is dented and dusty, but it looks to work.')
 					},
@@ -87,7 +87,7 @@ Events.Room = [
 				}
 			},
 			'stuff': {
-				reward: { wood: 100, fur: 10 },
+				reward: { wood: 1000, fur: 10000 },
 				text: [
 					_('a bundle of sticks lies just beyond the threshold, wrapped in coarse furs.'),
 					_('the night is silent.')
@@ -495,7 +495,7 @@ Events.Room = [
 				buttons: {
 					'buyMap': {
 						text: _('buy map'),
-						cost: { 'fur': 200, 'scales': 10 },
+						cost: { 'fur': 1, 'scales': 1 },
 						available: function() {
 							return !World.seenAll;
 						},
@@ -504,7 +504,7 @@ Events.Room = [
 					},
 					'learn': {
 						text: _('learn scouting'),
-						cost: { 'fur': 1000, 'scales': 50, 'teeth': 20 },
+						cost: { 'fur': 1, 'scales': 5, 'teeth': 2 },
 						available: function() {
 							return !$SM.hasPerk('scout');
 						},
@@ -539,8 +539,8 @@ Events.Room = [
 					'agree': {
 						text: _('agree'),
 						cost: {
-							'cured meat': 100,
-							'fur': 100,
+							'cured meat': 1,
+							'fur': 1,
 							'torch': 1
 						},
 						nextScene: {1: 'agree'}

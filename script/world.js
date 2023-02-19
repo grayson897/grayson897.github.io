@@ -24,17 +24,17 @@ var World = {
 	TILE_PROBS: {},
 	LANDMARKS: {},
 	STICKINESS: 0.5, // 0 <= x <= 1
-	LIGHT_RADIUS: 2,
-	BASE_WATER: 10,
-	MOVES_PER_FOOD: 2,
-	MOVES_PER_WATER: 1,
+	LIGHT_RADIUS: 20,
+	BASE_WATER: 100,
+	MOVES_PER_FOOD: 20,
+	MOVES_PER_WATER: 10,
 	DEATH_COOLDOWN: 120,
 	FIGHT_CHANCE: 0.20,
 	BASE_HEALTH: 10,
 	BASE_HIT_CHANCE: 0.8,
-	MEAT_HEAL: 8,
+	MEAT_HEAL: 20,
 	MEDS_HEAL: 20,
-	FIGHT_DELAY: 3, // At least three moves between fights
+	FIGHT_DELAY: 10, // At least ten moves between fights
 	NORTH: [ 0, -1],
 	SOUTH: [ 0,  1],
 	WEST:  [-1,  0],
@@ -50,8 +50,8 @@ var World = {
 		'bone spear': {
 			verb: _('stab'),
 			type: 'melee',
-			damage: 2,
-			cooldown: 2
+			damage: 5,
+			cooldown: 0
 		},
 		'iron sword': {
 			verb: _('swing'),
