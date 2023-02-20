@@ -1,46 +1,25 @@
-A Dark Room
-===========
-> "awake. head throbbing. vision blurry. come light the fire."
+BrowserQuest
+============
 
-a minimalist text adventure game for your browser
+BrowserQuest is a HTML5/JavaScript multiplayer game experiment.
 
-[Click to play](http://adarkroom.doublespeakgames.com)
 
-<table>
-<tr><th colspan=4>Available Languages</tr>
-<tr>
-	<td><a href="http://adarkroom.doublespeakgames.com/?lang=zh_cn">Chinese (Simplified)</a></td>
-	<td><a href="http://adarkroom.doublespeakgames.com/?lang=zh_tw">Chinese (Traditional)</a></td>
-	<td><a href="http://adarkroom.doublespeakgames.com/?lang=en">English</a></td>
-	<td><a href="http://adarkroom.doublespeakgames.com/?lang=fr">French</a></td>
-</tr><tr>
-	<td><a href="http://adarkroom.doublespeakgames.com/?lang=de">German</a></td>
-	<td><a href="http://adarkroom.doublespeakgames.com/?lang=el">Greek</a></td>
-	<td><a href="http://adarkroom.doublespeakgames.com/?lang=id">Indonesian</a></td>
-	<td><a href="http://adarkroom.doublespeakgames.com/?lang=it">Italian</a></td>
-</tr><tr>
-	<td><a href="http://adarkroom.doublespeakgames.com/?lang=ja">Japanese</a></td>
-	<td><a href="http://adarkroom.doublespeakgames.com/?lang=ko">Korean</a></td>
-	<td><a href="http://adarkroom.doublespeakgames.com/?lang=nb">Norwegian</a></td>
-	<td><a href="http://adarkroom.doublespeakgames.com/?lang=pl">Polish</a></td>
-</tr><tr>
-	<td><a href="http://adarkroom.doublespeakgames.com/?lang=pt">Portuguese</a></td>
-	<td><a href="http://adarkroom.doublespeakgames.com/?lang=pt_br">Portuguese (Brazil)</a></td>
-	<td><a href="http://adarkroom.doublespeakgames.com/?lang=ru">Russian</a></td>
-	<td><a href="http://adarkroom.doublespeakgames.com/?lang=es">Spanish</a></td>
-</tr><tr>
-	<td><a href="http://adarkroom.doublespeakgames.com/?lang=sv">Swedish</a></td>
-	<td><a href="http://adarkroom.doublespeakgames.com/?lang=th">Thai</a></td>
-	<td><a href="http://adarkroom.doublespeakgames.com/?lang=tr">Turkish</a></td>
-	<td><a href="http://adarkroom.doublespeakgames.com/?lang=uk">Ukrainian</a></td>
-</tr><tr>
-	<td><a href="http://adarkroom.doublespeakgames.com/?lang=vi">Vietnamese</a></td>
-	<td><a href="http://adarkroom.doublespeakgames.com/?lang=lt_LT">Lithuanian</a></td>
-	<td><a href="http://adarkroom.doublespeakgames.com/?lang=gl">Galician</a></td>
-</tr>
-</table>
+Documentation
+-------------
 
-or play the latest on [GitHub](http://doublespeakgames.github.io/adarkroom)
+Documentation is located in client and server directories.
 
-<a href="https://itunes.apple.com/us/app/a-dark-room/id736683061"><img src="http://i.imgur.com/DMdnDYq.png" height="50"></a>
-<a href="https://play.google.com/store/apps/details?id=com.yourcompany.adarkroom"><img src="http://i.imgur.com/bLWWj4r.png" height="50"></a>
+
+License
+-------
+
+Code is licensed under MPL 2.0. Content is licensed under CC-BY-SA 3.0.
+See the LICENSE file for details.
+
+
+Credits
+-------
+Created by [Little Workshop](http://www.littleworkshop.fr):
+
+* Franck Lecollinet - [@whatthefranck](http://twitter.com/whatthefranck)
+* Guillaume Lecollinet - [@glecollinet](http://twitter.com/glecollinet)
