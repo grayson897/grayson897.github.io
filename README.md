@@ -1,46 +1,28 @@
-A Dark Room
-===========
-> "awake. head throbbing. vision blurry. come light the fire."
+# Shuttlegames (WORKING MARCH 2023)
+Play mobile games online <br>
 
-a minimalist text adventure game for your browser
+[![Deploy to Heroku](https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/remade/heroku.svg)](https://heroku.com/deploy/?template=https://github.com/liutristan/shuttlegames)
+[![Run on Replit](https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/remade/replit.svg)](https://replit.com/github/liutristan/shuttlegames)
+[![Remix on Glitch](https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/remade/glitch.svg)](https://glitch.com/edit/#!/import/github/liutristan/shuttlegames)
+[![Deploy to Azure](https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/remade/azure.svg)](https://deploy.azure.com/?repository=https://github.com/liutristan/shuttlegames)
+[![Deploy to IBM Cloud](https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/remade/ibmcloud.svg)](https://cloud.ibm.com/devops/setup/deploy?repository=https://github.com/liutristan/shuttlegames)
+[![Deploy to Amplify Console](https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/remade/amplifyconsole.svg)](https://console.aws.amazon.com/amplify/home#/deploy?repo=https://github.com/liutristan/shuttlegames)
+[![Run on Google Cloud](https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/remade/googlecloud.svg)](https://deploy.cloud.run/?git_repo=https://github.com/liutristan/shuttlegames)
 
-[Click to play](http://adarkroom.doublespeakgames.com)
+## Discord Server
 
-<table>
-<tr><th colspan=4>Available Languages</tr>
-<tr>
-	<td><a href="http://adarkroom.doublespeakgames.com/?lang=zh_cn">Chinese (Simplified)</a></td>
-	<td><a href="http://adarkroom.doublespeakgames.com/?lang=zh_tw">Chinese (Traditional)</a></td>
-	<td><a href="http://adarkroom.doublespeakgames.com/?lang=en">English</a></td>
-	<td><a href="http://adarkroom.doublespeakgames.com/?lang=fr">French</a></td>
-</tr><tr>
-	<td><a href="http://adarkroom.doublespeakgames.com/?lang=de">German</a></td>
-	<td><a href="http://adarkroom.doublespeakgames.com/?lang=el">Greek</a></td>
-	<td><a href="http://adarkroom.doublespeakgames.com/?lang=id">Indonesian</a></td>
-	<td><a href="http://adarkroom.doublespeakgames.com/?lang=it">Italian</a></td>
-</tr><tr>
-	<td><a href="http://adarkroom.doublespeakgames.com/?lang=ja">Japanese</a></td>
-	<td><a href="http://adarkroom.doublespeakgames.com/?lang=ko">Korean</a></td>
-	<td><a href="http://adarkroom.doublespeakgames.com/?lang=nb">Norwegian</a></td>
-	<td><a href="http://adarkroom.doublespeakgames.com/?lang=pl">Polish</a></td>
-</tr><tr>
-	<td><a href="http://adarkroom.doublespeakgames.com/?lang=pt">Portuguese</a></td>
-	<td><a href="http://adarkroom.doublespeakgames.com/?lang=pt_br">Portuguese (Brazil)</a></td>
-	<td><a href="http://adarkroom.doublespeakgames.com/?lang=ru">Russian</a></td>
-	<td><a href="http://adarkroom.doublespeakgames.com/?lang=es">Spanish</a></td>
-</tr><tr>
-	<td><a href="http://adarkroom.doublespeakgames.com/?lang=sv">Swedish</a></td>
-	<td><a href="http://adarkroom.doublespeakgames.com/?lang=th">Thai</a></td>
-	<td><a href="http://adarkroom.doublespeakgames.com/?lang=tr">Turkish</a></td>
-	<td><a href="http://adarkroom.doublespeakgames.com/?lang=uk">Ukrainian</a></td>
-</tr><tr>
-	<td><a href="http://adarkroom.doublespeakgames.com/?lang=vi">Vietnamese</a></td>
-	<td><a href="http://adarkroom.doublespeakgames.com/?lang=lt_LT">Lithuanian</a></td>
-	<td><a href="http://adarkroom.doublespeakgames.com/?lang=gl">Galician</a></td>
-</tr>
-</table>
+Press the join button to join the server:
 
-or play the latest on [GitHub](http://doublespeakgames.github.io/adarkroom)
+[![Join us on Discord](https://invidget.switchblade.xyz/xi?theme=dark)](https://discord.gg/xi)
 
-<a href="https://itunes.apple.com/us/app/a-dark-room/id736683061"><img src="http://i.imgur.com/DMdnDYq.png" height="50"></a>
-<a href="https://play.google.com/store/apps/details?id=com.yourcompany.adarkroom"><img src="http://i.imgur.com/bLWWj4r.png" height="50"></a>
+## Setup
+
+```sh
+git clone https://github.com/liutristan/shuttlegames
+cd shuttlegames
+npm install
+npm start
+```
+## Info
+
+Website must be proxied through a proxy to work
